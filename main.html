@@ -8,6 +8,91 @@
 
 <body>
 	<!-- the entire body must be written by student -->
+	<form action="" method="get">
+		<div>
+			<label>
+				Name:<sup>*</sup>
+				<input type="text" required="required" id="name" placeholder="Name">
+			</label>
+		</div>
+
+		<div>
+			<label>
+				Email:<sup>*</sup>
+				<input type="email" required="required" id="email" placeholder="Email">
+			</label>
+		</div>
+
+		<div>
+			<label>
+				Gender:<sup>*</sup>
+			<input type="radio" name="gender" id="gender_m" required="required">Male
+			<input type="radio" name="gender" id="gender_f" required="required">Female
+			</label>
+		</div>
+
+		<div>
+			<label>
+				Car Brands:<sup>*</sup>
+				<select id="cars" aria-required="true">
+					<option>--Please choose an option--</option>
+					<option>AUDI</option>
+					<option>BMW</option>
+					<option>TOYOTA</option>
+					<option>TATA</option>
+				</select>
+			</label>
+		</div>
+
+		<div>
+			<label>
+				Age:<sup>*</sup>
+				<input type="number" required="required" id="age" placeholder="Age">
+			</label>
+		</div>
+
+		<div>
+			<label>
+				DOB:<sup>*</sup>
+				<input type="date" required="required" id="dob">
+			</label>
+		</div>
+
+		<div>
+			<label>
+				Phone Number:
+				<input type="tel" aria-required="false" id="tel" placeholder="xxx-xxx-xxxx">
+			</label>
+		</div>
+
+		<div>
+			<label>
+				Password:<sup>*</sup>
+				<input type="password" id="password" placeholder="Password" required="required">
+			</label>
+		</div>
+
+		<div>
+			<label>
+				I agree to the TOS<sup>*</sup>
+				<input type="checkbox" required="required" id="tos">
+			</label>
+		</div>
+
+		<input type="button" value="submit">
+
+
+
+
+		
+	</form>
+
+
+
+
+
+
+	
     <script type="text/javascript" src="./script.js">
 </script>
 
