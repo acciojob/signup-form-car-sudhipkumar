@@ -10,31 +10,33 @@
 	<!-- the entire body must be written by student -->
 	<form action="" method="post">
 		<div>
-			<label>
+			<label for="name">
 				Name:<sup>*</sup>
-				<input type="text" required="required" id="name" placeholder="Name" for="name">
+				<input type="text" required="required" id="name" placeholder="Name">
 			</label>
 		</div>
 
 		<div>
-			<label>
+			<label for="email">
 				Email:<sup>*</sup>
-				<input type="email" required="required" id="email" placeholder="Email" for="email">
+				<input type="email" required="required" id="email" placeholder="Email">
 			</label>
 		</div>
 
 		<div>
-			<label>
 				Gender:<sup>*</sup>
-			<input type="radio" name="gender" id="gender_m" required="required" for="gender_m">Male
-			<input type="radio" name="gender" id="gender_f" required="required" for="gender_f">Female
+			<label for="gender_m">
+			<input type="radio" name="gender" id="gender_m" required="required">Male
+			</label>
+			<label for="gender_f">
+			<input type="radio" name="gender" id="gender_f" required="required">Female
 			</label>
 		</div>
 
 		<div>
-			<label>
+			<label for="cars">
 				Car Brands:<sup>*</sup>
-				<select id="cars" aria-required="true" for="cars">
+				<select id="cars" aria-required="true">
 					<option>--Please choose an option--</option>
 					<option>AUDI</option>
 					<option>BMW</option>
@@ -45,37 +47,37 @@
 		</div>
 
 		<div>
-			<label>
+			<label for="age">
 				Age:<sup>*</sup>
-				<input type="number" required="required" id="age" placeholder="Age" for="age">
+				<input type="number" required="required" id="age" placeholder="Age">
 			</label>
 		</div>
 
 		<div>
-			<label>
+			<label for="dob">
 				DOB:<sup>*</sup>
-				<input type="date" required="required" id="dob" for="dob">
+				<input type="date" required="required" id="dob">
 			</label>
 		</div>
 
 		<div>
-			<label>
+			<label for="tel">
 				Phone Number:
-				<input type="tel" aria-required="false" id="tel" placeholder="xxx-xxx-xxxx" for="tel">
+				<input type="tel" aria-required="false" id="tel" placeholder="xxx-xxx-xxxx">
 			</label>
 		</div>
 
 		<div>
-			<label>
+			<label for="password">
 				Password:<sup>*</sup>
-				<input type="password" id="password" placeholder="Password" required="required" for="password">
+				<input type="password" id="password" placeholder="Password" required="required">
 			</label>
 		</div>
 
 		<div>
-			<label>
+			<label for="tos">
 				I agree to the TOS<sup>*</sup>
-				<input type="checkbox" required="required" id="tos" for="tos">
+				<input type="checkbox" required="required" id="tos">
 			</label>
 		</div>
 
